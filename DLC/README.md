@@ -6,7 +6,7 @@ mkdir -p /scratch/project_****/$USER/apptainer_build_tmp
 ```bash
 make TMPDIR=/scratch/project_****/$USER/apptainer_build_tmp
 ```
-# 3. To use the `phy_ubuntu` container 
+# 3. To use the `dlc_ubuntu` container 
 ```bash
 apptainer run --nv dlc_ubuntu.sif 
 ``` 
